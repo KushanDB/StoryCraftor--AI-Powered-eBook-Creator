@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
 @import "tailwindcss";
 
-@theme {
-  --font-display: 'Elms Sans', sans-serif;
-  --breakpoints-3xl: 1920px;
-  --color-primary: #ff9324;
+@layer theme {
+  :root {
+    --font-display: "Elms Sans", sans-serif;
+    --breakpoints-3xl: 1920px;
+    --color-primary: #FF9324;
+  }
 }
 
 @layer base {
