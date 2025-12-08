@@ -1,7 +1,7 @@
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { FiLogOut, FiUser } from 'react-icons/fi';
-import logo from '../assets/Storycraftor_logo_2.png';
+import logo from '../assets/Storycraftor_logo_2-removebg.png';
 
 const Navbar = () => {
   const { user, logout } = useAuth();
