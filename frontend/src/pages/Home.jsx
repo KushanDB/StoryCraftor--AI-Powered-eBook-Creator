@@ -6,13 +6,13 @@ const Home = () => {
   const { user } = useAuth();
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-purple-50">
+    <div className="min-h-screen bg-linear-to-br from-blue-50 to-purple-50">
       {/* Hero Section */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center">
           <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
             Create Amazing eBooks with{' '}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">
+            <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-600 to-purple-600">
               AI Power
             </span>
           </h1>
@@ -95,7 +95,7 @@ const Home = () => {
               { step: '4', title: 'Export', desc: 'Download your completed eBook as PDF' },
             ].map((item) => (
               <div key={item.step} className="text-center">
-                <div className="bg-gradient-to-br from-blue-600 to-purple-600 text-white w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">
+                <div className="bg-linear-to-br from-blue-600 to-purple-600 text-white w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">
                   {item.step}
                 </div>
                 <h4 className="font-bold text-gray-900 mb-2">{item.title}</h4>
