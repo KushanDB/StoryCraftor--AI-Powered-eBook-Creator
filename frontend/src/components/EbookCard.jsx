@@ -13,7 +13,7 @@ const EbookCard = ({ ebook, onDelete }) => {
   return (
     <div className="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 overflow-hidden">
       {/* Cover Image */}
-      <div className="h-48 bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center">
+      <div className="h-48 bg-linear-to-br from-blue-500 to-purple-600 flex items-center justify-center">
         <h3 className="text-white text-2xl font-bold text-center px-4">
           {ebook.title}
         </h3>
