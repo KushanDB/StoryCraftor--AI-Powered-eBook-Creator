@@ -31,7 +31,7 @@ const AIAssistant = ({ onContentGenerated }) => {
   };
 
   return (
-    <div className="bg-gradient-to-r from-purple-50 to-blue-50 rounded-lg shadow-md p-6 mb-6">
+    <div className="bg-linear-to-r from-purple-50 to-blue-50 rounded-lg shadow-md p-6 mb-6">
       <div className="flex items-center mb-4">
         <FiZap className="text-2xl text-purple-600 mr-2" />
         <h3 className="text-xl font-bold text-gray-900">AI Assistant</h3>
