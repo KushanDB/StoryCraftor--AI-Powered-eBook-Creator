@@ -1,6 +1,7 @@
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
-import { FiBook, FiLogOut, FiUser } from 'react-icons/fi';
+import { FiLogOut, FiUser } from 'react-icons/fi';
+import logo from '../assets/Storycraftor_logo.jpeg';
 
 const Navbar = () => {
   const { user, logout } = useAuth();
@@ -17,8 +18,8 @@ const Navbar = () => {
         <div className="flex justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <Link to="/" className="flex items-center space-x-2">
-              <FiBook className="text-3xl text-blue-600" />
+            <Link to="/" className="flex items-center space-x-3">
+              <img src={logo} alt="StoryCraftor" className="h-12 w-12 rounded-lg" />
               <span className="text-2xl font-bold text-gray-900">StoryCraftor</span>
             </Link>
           </div>
